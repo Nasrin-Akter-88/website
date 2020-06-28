@@ -139,52 +139,23 @@
           </tr>
           </table>
           <table width="100%" align="center" border="0" cellpadding="20">
-           <tr onmouseout="autism_stop()" onmouseover="autism_start()">
+            <tr onmouseout="autism_stop()()" onmouseover="autism_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='autism_image'>
-                  <img src='images/autism_after.jpg' width="160"></div>
+                <img src='images/autism_after.jpg'width="160"></div>
                 <img src='images/autism_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function autism_start() {
+                </div>
+               <script type="text/javascript">                                         
+               function autism_start() {
                   document.getElementById('autism_image').style.opacity = "1";
                 }
 
-                function WomenICT_stop() {
+
+                  function autism_stop() {
                   document.getElementById('autism_image').style.opacity = "0";
                 }
-                autism_stop() 
-               </script>
-              </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://drive.google.com/file/d/16xfCtLb2iOUFkppYR7m1r5jAn_VY2m-F/view?usp=sharing">
-                <papertitle>Detection of Autism Spectrum Disorder applying Deep Neural Network.</papertitle>
-              </a>
-              <br>
-              <strong>Nasrin Akter</strong>, Supervisor:<a href="https://fse.ewubd.edu/computer-science-engineering/faculty-view/nawab">Dr. Md. Nawab Yousuf Ali</a>
-              <br>
-        <em>MSc. Dissertation</em>
-              <br>
-              <p>Autism spectrum disorder(ASD) is severely pervasive nowadays; being an ML & Data Science enthusiast, I developed a DNN classifier in my MSc research project to early diagnosis of ASD traits for improving toddler’s symptoms and ability to function. </p>
-            </td> 
-             <tr onmouseout="font_stop()()" onmouseover="font_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id=''font_image'>
-                <img src='images/font_after.png'width="160"></div>
-                <img src='images/font_before.png' width="160">
-                </div>
-               <script type="text/javascript">                                         
-               function font_start() {
-                  document.getElementById('font_image').style.opacity = "1";
-                }
-
-
-                  function font_stop() {
-                  document.getElementById('font_image').style.opacity = "0";
-                }
-                font_image_stop()
+                autism_stop()
               </script>
               </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
